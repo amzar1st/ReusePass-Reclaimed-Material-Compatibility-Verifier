@@ -1,0 +1,5 @@
+SYNTHETIC DEMONSTRATION RECORD. Not a real inspection.
+Batch DEMO-review-c. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01.
+Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick.
+Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery and transferred directly to ReusePass Demo Yard with custody recorded.
+Treatment history: unavailable. Prior preservative or chemical treatment cannot be established from the recovery records.
