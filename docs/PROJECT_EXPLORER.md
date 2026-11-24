@@ -44,6 +44,8 @@ Meaning depends on context: a certificate can exclude some boards, a treatment s
 
 **Studio:** https://studio.genlayer.com/contracts?import-contract=0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC
 
+**Public website:** https://reusepass.wirymink515.chatgpt.site/
+
 **GitHub:** https://github.com/amzar1st/ReusePass-Reclaimed-Material-Compatibility-Verifier
 
 Current observed transaction evidence and actual outcome labels are in `evidence/verification.json`. Publication details and release checks are in `docs/RELEASE.md`.

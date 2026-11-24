@@ -8,6 +8,8 @@ A community workshop needs ten usable boards with specific minimum dimensions, u
 
 ## Project links
 
+- **Public website:** [reusepass.wirymink515.chatgpt.site](https://reusepass.wirymink515.chatgpt.site/)
+
 - **Intelligent Contract:** [0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC](https://explorer-studio.genlayer.com/address/0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC)
 - **Studio:** [Open the deployed contract](https://studio.genlayer.com/contracts?import-contract=0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC)
 - **Network:** GenLayer Studionet, chain ID `61999`, RPC `https://studio.genlayer.com/api`

@@ -56,3 +56,11 @@ For `review-c`, coverage, manifest and provenance were supported while treatment
 - https://docs.genlayer.com/developers/intelligent-contracts/features/calling-llms
 - https://docs.genlayer.com/developers/intelligent-contracts/deploying
 - https://docs.genlayer.com/developers/intelligent-contracts/tools/genlayer-studio
+
+## Public website and CI
+
+- Public URL: https://reusepass.wirymink515.chatgpt.site/
+- Hosting service confirmed successful publication on 24 November 2026, 03:01:49 UTC (08:31:49 Sri Lanka). Access is public.
+- Published source commit: `744d223191f8fa951e795a859677bbdbe66fd1a4`. Subsequent documentation/evidence commits do not alter the deployed frontend or contract source.
+- [GitHub Actions run 45316439291](https://github.com/amzar1st/ReusePass-Reclaimed-Material-Compatibility-Verifier/actions/runs/45316439291) completed successfully for that exact published source commit.
+- Public-browser check loaded the hosted app without a sign-in wall and displayed all three finalized findings (one match, one conflict, one evidence gap). A separate unauthenticated HTTP request returned status 200.

@@ -1,0 +1,17 @@
+{
+  "id": "appgdep_6b04fe0a9b4c8191a8f2f4724b93d2e2",
+  "project_id": "appgprj_6b0452686ab48191b839fc580eba24b9",
+  "title": "ReusePass",
+  "version_id": "appgprj_6b0452686ab48191b839fc580eba24b9~appgver_cb3df6b2a41c8191bfc237be1b9064ce",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://reusepass.wirymink515.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "release---6b04fe0a9b4c8191a8f2f4724b93d2e2",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-24T03:01:49.417072+00:00",
+  "source_commit": "744d223191f8fa951e795a859677bbdbe66fd1a4",
+  "access_mode": "public"
+}
