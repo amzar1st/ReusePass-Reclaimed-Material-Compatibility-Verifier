@@ -1,0 +1,63 @@
+{
+  "hash": "0x51be6fe37ef72f3c26aadb6caae04b7e061590a81aab01ed76a09dcb67c79251",
+  "status": "FINALIZED",
+  "execution_result": "FINISHED_WITH_RETURN",
+  "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+  "type": 2,
+  "created_at": "2026-11-24T02:49:56.841711+00:00",
+  "execution_mode": "NORMAL",
+  "validators": 5,
+  "votes": {
+    "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+    "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "idle",
+    "0x5e880d85a70De78dDEf86236d57c42e73F560615": "agree",
+    "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+    "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "idle"
+  },
+  "receipts": [
+    {
+      "mode": "leader",
+      "vote": null,
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "eq_outputs": {},
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "idle",
+      "execution_result": "ERROR",
+      "result": "AmlkbGU=",
+      "stderr": "Validator execution cancelled after quorum"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "idle",
+      "execution_result": "ERROR",
+      "result": "AmlkbGU=",
+      "stderr": "Validator execution cancelled after quorum"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    }
+  ]
+}

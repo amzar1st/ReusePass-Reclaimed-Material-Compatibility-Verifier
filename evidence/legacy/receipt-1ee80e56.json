@@ -1,0 +1,17 @@
+{
+  "hash": "0x1ee80e5616e72f6d2adaf7f02d52101ef786a6fbf7e06a50116d89f332055720",
+  "from_address": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "to_address": "0xF99Ea214ddDA0677757ac6F3eD42CcB70c710e29",
+  "status": "FINALIZED",
+  "txExecutionResultName": "FINISHED_WITH_RETURN",
+  "created_at": "2026-11-23T15:02:07.458863+00:00",
+  "execution_mode": "NORMAL",
+  "superseded": true,
+  "votes": {
+    "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+    "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "idle",
+    "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+    "0x5744305308D62592B7De585e1999c4Ea51E03C29": "agree",
+    "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "agree"
+  }
+}

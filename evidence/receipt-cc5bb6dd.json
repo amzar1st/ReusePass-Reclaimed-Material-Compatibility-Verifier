@@ -1,0 +1,65 @@
+{
+  "hash": "0xcc5bb6dda8281b202a4a341abf9c7cb0868e8af3829beddd540c779483f0341b",
+  "status": "FINALIZED",
+  "execution_result": "FINISHED_WITH_RETURN",
+  "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+  "type": 2,
+  "created_at": "2026-11-24T02:49:32.059432+00:00",
+  "execution_mode": "NORMAL",
+  "validators": 5,
+  "votes": {
+    "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "idle",
+    "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+    "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+    "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree",
+    "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+  },
+  "receipts": [
+    {
+      "mode": "leader",
+      "vote": null,
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "eq_outputs": {
+        "0": "ACYIY292ZXJhZ2UeA2RvYwEFcXVvdGWECUJhdGNoIERFTU8tcmV2aWV3LWIuIElzc3VlcjogUmV1c2VQYXNzIERlbW8gWWFyZC4gSW5zcGVjdGlvbiBkYXRlOiAyMDI2LTExLTAxLiBNYW5pZmVzdDogMTAgYm9hcmRzLCBlYWNoIDEyMDAgbW0gbG9uZywgMTAwIG1tIHdpZGUsIDI1IG1tIHRoaWNrLgVzdGF0ZUxTVVBQT1JURUQIbWFuaWZlc3QeA2RvYwEFcXVvdGWECUJhdGNoIERFTU8tcmV2aWV3LWIuIElzc3VlcjogUmV1c2VQYXNzIERlbW8gWWFyZC4gSW5zcGVjdGlvbiBkYXRlOiAyMDI2LTExLTAxLiBNYW5pZmVzdDogMTAgYm9hcmRzLCBlYWNoIDEyMDAgbW0gbG9uZywgMTAwIG1tIHdpZGUsIDI1IG1tIHRoaWNrLgVzdGF0ZUxTVVBQT1JURUQKcHJvdmVuYW5jZR4DZG9jAQVxdW90ZeQIUHJvdmVuYW5jZTogcmVjb3ZlcmVkIGZyb20gRGVtbyBXYXJlaG91c2UgNDsgZGlzbWFudGxlZCBieSBEZW1vIFJlY292ZXJ5LCB0cmFuc2ZlcnJlZCBkaXJlY3RseSB0byBSZXVzZVBhc3MgRGVtbyBZYXJkIHdpdGggY3VzdG9keSByZWNvcmRlZC4Fc3RhdGVMU1VQUE9SVEVECXRyZWF0bWVudB4DZG9jAQVxdW90ZfQEVHJlYXRtZW50IGhpc3Rvcnk6IHVudHJlYXRlZCB0aW1iZXIsIG5ldmVyIGNoZW1pY2FsbHkgb3IgcHJlc2VydmF0aXZlIHRyZWF0ZWQuBXN0YXRlTFNVUFBPUlRFRA=="
+      },
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "idle",
+      "execution_result": "ERROR",
+      "result": "AmlkbGU=",
+      "stderr": "Validator execution cancelled after quorum"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "result": "AAA=",
+      "stderr": ""
+    },
+    {
+      "mode": "validator",
+      "vote": "idle",
+      "execution_result": "ERROR",
+      "result": "AmlkbGU=",
+      "stderr": "Validator execution cancelled after quorum"
+    }
+  ]
+}

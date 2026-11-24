@@ -1,0 +1,273 @@
+{
+  "checked_at": "2026-11-24T02:53:46.232Z",
+  "chain_id": 61999,
+  "contract": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+  "records": {
+    "batches": [
+      "review-a",
+      "review-b",
+      "review-c"
+    ],
+    "requirements": [
+      "review-workshop"
+    ]
+  },
+  "findings": {
+    "review-a": {
+      "batch_id": "review-a",
+      "documents": [
+        {
+          "content": "SYNTHETIC DEMONSTRATION RECORD. Not a real inspection. Batch DEMO-review-a. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick. Treatment history: untreated timber, never chemically or preservative treated. Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+          "content_hash": "1b6acf77a41378095c7ad5c7d208079b8ec927c05b5471d0ff10775d19560e0f",
+          "inspection_date": 20261101,
+          "issuer": "ReusePass Demo Yard",
+          "source_sha256": "",
+          "source_url": "",
+          "title": "Synthetic batch inspection and recovery record"
+        }
+      ],
+      "excluded_expired_documents": 0,
+      "manifest_hash": "06c4647aa48607ac75669bc0161030da6ad6dcd181e6b8258a430e36403f3e35",
+      "numeric_conflicts": [],
+      "requirement_hash": "bebab06fd8a8891b06f650d5e1940bb62b0a3638838e6b9c9ab094bd9e01790a",
+      "requirement_id": "review-workshop",
+      "revision": 1,
+      "scope": "Document compatibility only; physical inspection and document authenticity remain separate.",
+      "semantic": {
+        "coverage": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-a.",
+          "state": "SUPPORTED"
+        },
+        "manifest": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-a. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick.",
+          "state": "SUPPORTED"
+        },
+        "provenance": {
+          "doc": 0,
+          "quote": "Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+          "state": "SUPPORTED"
+        },
+        "treatment": {
+          "doc": 0,
+          "quote": "Treatment history: untreated timber, never chemically or preservative treated.",
+          "state": "SUPPORTED"
+        }
+      },
+      "status": "DOCUMENTED_MATCH"
+    },
+    "review-b": {
+      "batch_id": "review-b",
+      "documents": [
+        {
+          "content": "SYNTHETIC DEMONSTRATION RECORD. Not a real inspection. Batch DEMO-review-b. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1200 mm long, 100 mm wide, 25 mm thick. Treatment history: untreated timber, never chemically or preservative treated. Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+          "content_hash": "737909e5b16728b750bdc7405053ec7e5e132eed8f83f66509c79f8a06b3e0c4",
+          "inspection_date": 20261101,
+          "issuer": "ReusePass Demo Yard",
+          "source_sha256": "",
+          "source_url": "",
+          "title": "Synthetic batch inspection and recovery record"
+        }
+      ],
+      "excluded_expired_documents": 0,
+      "manifest_hash": "b235581d740a81eeefc692b1445cceeaa6f9e71bfca35c07354d55b4aee9d34b",
+      "numeric_conflicts": [
+        {
+          "actual": 1200,
+          "field": "length_mm",
+          "lot": 0,
+          "minimum": 1798
+        },
+        {
+          "actual": 0,
+          "field": "quantity",
+          "minimum": 10
+        }
+      ],
+      "requirement_hash": "bebab06fd8a8891b06f650d5e1940bb62b0a3638838e6b9c9ab094bd9e01790a",
+      "requirement_id": "review-workshop",
+      "revision": 1,
+      "scope": "Document compatibility only; physical inspection and document authenticity remain separate.",
+      "semantic": {
+        "coverage": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-b. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1200 mm long, 100 mm wide, 25 mm thick.",
+          "state": "SUPPORTED"
+        },
+        "manifest": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-b. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1200 mm long, 100 mm wide, 25 mm thick.",
+          "state": "SUPPORTED"
+        },
+        "provenance": {
+          "doc": 0,
+          "quote": "Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+          "state": "SUPPORTED"
+        },
+        "treatment": {
+          "doc": 0,
+          "quote": "Treatment history: untreated timber, never chemically or preservative treated.",
+          "state": "SUPPORTED"
+        }
+      },
+      "status": "REQUIREMENT_CONFLICT"
+    },
+    "review-c": {
+      "batch_id": "review-c",
+      "documents": [
+        {
+          "content": "SYNTHETIC DEMONSTRATION RECORD. Not a real inspection.\nBatch DEMO-review-c. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01.\nManifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick.\nProvenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery and transferred directly to ReusePass Demo Yard with custody recorded.\nTreatment history: unavailable. Prior preservative or chemical treatment cannot be established from the recovery records.\n",
+          "content_hash": "89b397c1136fa6711b1b05c1a05f6d748d7865ce9a19a5a016edceb9979d5eb2",
+          "inspection_date": 20261101,
+          "issuer": "ReusePass Demo Yard",
+          "source_sha256": "89b397c1136fa6711b1b05c1a05f6d748d7865ce9a19a5a016edceb9979d5eb2",
+          "source_url": "https://raw.githubusercontent.com/amzar1st/ReusePass-Reclaimed-Material-Compatibility-Verifier/7635a68625b525eb80a077c9bbe970abb8bcbece/fixtures/incomplete-inspection.txt",
+          "title": "Synthetic incomplete-treatment inspection"
+        }
+      ],
+      "excluded_expired_documents": 0,
+      "manifest_hash": "a134b1b896fe6b4c26195097bfc309a7bc2ac7952a73f883e8211fd5a17bc469",
+      "numeric_conflicts": [],
+      "requirement_hash": "bebab06fd8a8891b06f650d5e1940bb62b0a3638838e6b9c9ab094bd9e01790a",
+      "requirement_id": "review-workshop",
+      "revision": 1,
+      "scope": "Document compatibility only; physical inspection and document authenticity remain separate.",
+      "semantic": {
+        "coverage": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-c.",
+          "state": "SUPPORTED"
+        },
+        "manifest": {
+          "doc": 0,
+          "quote": "Batch DEMO-review-c. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01.\nManifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick.",
+          "state": "SUPPORTED"
+        },
+        "provenance": {
+          "doc": 0,
+          "quote": "Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery and transferred directly to ReusePass Demo Yard with custody recorded.",
+          "state": "SUPPORTED"
+        },
+        "treatment": {
+          "doc": -1,
+          "quote": "",
+          "state": "MISSING"
+        }
+      },
+      "status": "MORE_EVIDENCE_NEEDED"
+    }
+  },
+  "transactions": [
+    {
+      "hash": "0xdc6e935682b91f0dbbbaa934f96f280c2054318a58e00f4814be4a039d9f74aa",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 2,
+      "created_at": "2026-11-24T02:51:21.888810+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "agree",
+        "0x5744305308D62592B7De585e1999c4Ea51E03C29": "agree",
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "idle",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "idle"
+      }
+    },
+    {
+      "hash": "0x51be6fe37ef72f3c26aadb6caae04b7e061590a81aab01ed76a09dcb67c79251",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 2,
+      "created_at": "2026-11-24T02:49:56.841711+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "idle",
+        "0x5e880d85a70De78dDEf86236d57c42e73F560615": "agree",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "idle"
+      }
+    },
+    {
+      "hash": "0xcc5bb6dda8281b202a4a341abf9c7cb0868e8af3829beddd540c779483f0341b",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 2,
+      "created_at": "2026-11-24T02:49:32.059432+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "idle",
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree",
+        "0xe358f855C96d8E7243836cf986eb037175B9467e": "agree"
+      }
+    },
+    {
+      "hash": "0xd4ee08dde04692eb823b0293e76c1b72f1f3a61caa2d7c869c4a259717754e64",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 2,
+      "created_at": "2026-11-24T02:48:51.831427+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x19a02f95418A6c76091CDA37C4fc542CA82805c9": "idle",
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+        "0x23A15A452F19D1B616276fedC5B8B51d69082959": "agree",
+        "0x4eeaD269a60bB89c98a23c1BCd0bd101CafD90E0": "agree",
+        "0xE74a9088aD4d6dBf3C8cABcC0B91072d2a8c8afa": "agree"
+      }
+    },
+    {
+      "hash": "0x05563517f6b0a44ac0e7b7fa3c0d534cf77c741ab62978285568660be61e3ec5",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 2,
+      "created_at": "2026-11-24T02:47:13.450712+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x1B490819e040562a5fb40CD64B1c70D4419c38d1": "agree",
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "agree",
+        "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "idle",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0xBE58b43DF1d991e054F743Cc5571dD7029F3B888": "agree"
+      }
+    },
+    {
+      "hash": "0xdcad66e543b854f32c99de6d6720e5a13f1a0715d09fb53697956566ae1cc5e8",
+      "status": "FINALIZED",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "from": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+      "to": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+      "type": 1,
+      "created_at": "2026-11-24T02:45:58.148811+00:00",
+      "execution_mode": "NORMAL",
+      "validators": 5,
+      "votes": {
+        "0x21e4F7ba6Ec0fbf70C019fbc0F9A797c3ed1F969": "idle",
+        "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "agree",
+        "0x62718FbDf0509A398aA525C152D60c1F7A9d33D3": "agree",
+        "0x6DC61b906F74F44612c5545b0b79486133B3556d": "idle",
+        "0x725Ab89db6A9DD886Ba71Bc5E63a01070C325bE3": "agree"
+      }
+    }
+  ],
+  "source_sha256": "85b4194ca5fad48a214f17bc0f04c97e191da2c7fd9403bfce7e673cdde63f3d",
+  "deployed_source_matches_checkout": true
+}

@@ -1,0 +1,91 @@
+{
+  "network": 61999,
+  "contract": "0xeda7e44331EB2dF78ABC320656752FE4f05DC4EC",
+  "requirement": {
+    "id": "review-workshop",
+    "earliest_inspection": 20260101,
+    "hash": "bebab06fd8a8891b06f650d5e1940bb62b0a3638838e6b9c9ab094bd9e01790a",
+    "length_mm": 1800,
+    "owner": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+    "provenance": "Documented recovery location and custody from recovery to supplying yard required.",
+    "quantity": 10,
+    "thickness_mm": 25,
+    "title": "Workshop shelving — synthetic demo",
+    "tolerance_mm": 2,
+    "treatment": "Explicit untreated timber history required; no preservative or chemical treatment.",
+    "width_mm": 100
+  },
+  "batch": {
+    "id": "review-a",
+    "batch_ref": "DEMO-review-a",
+    "description": "Synthetic teaching fixture; no real supplier or material certification.",
+    "evidence": [
+      {
+        "content": "SYNTHETIC DEMONSTRATION RECORD. Not a real inspection. Batch DEMO-review-a. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick. Treatment history: untreated timber, never chemically or preservative treated. Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+        "content_hash": "1b6acf77a41378095c7ad5c7d208079b8ec927c05b5471d0ff10775d19560e0f",
+        "inspection_date": 20261101,
+        "issuer": "ReusePass Demo Yard",
+        "source_sha256": "",
+        "source_url": "",
+        "title": "Synthetic batch inspection and recovery record"
+      }
+    ],
+    "label": "Warehouse boards — synthetic",
+    "lots": [
+      {
+        "length_mm": 1800,
+        "quantity": 10,
+        "thickness_mm": 25,
+        "width_mm": 100
+      }
+    ],
+    "manifest_hash": "06c4647aa48607ac75669bc0161030da6ad6dcd181e6b8258a430e36403f3e35",
+    "owner": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+    "revision": 1
+  },
+  "finding": {
+    "batch_id": "review-a",
+    "documents": [
+      {
+        "content": "SYNTHETIC DEMONSTRATION RECORD. Not a real inspection. Batch DEMO-review-a. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick. Treatment history: untreated timber, never chemically or preservative treated. Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+        "content_hash": "1b6acf77a41378095c7ad5c7d208079b8ec927c05b5471d0ff10775d19560e0f",
+        "inspection_date": 20261101,
+        "issuer": "ReusePass Demo Yard",
+        "source_sha256": "",
+        "source_url": "",
+        "title": "Synthetic batch inspection and recovery record"
+      }
+    ],
+    "excluded_expired_documents": 0,
+    "manifest_hash": "06c4647aa48607ac75669bc0161030da6ad6dcd181e6b8258a430e36403f3e35",
+    "numeric_conflicts": [],
+    "requirement_hash": "bebab06fd8a8891b06f650d5e1940bb62b0a3638838e6b9c9ab094bd9e01790a",
+    "requirement_id": "review-workshop",
+    "revision": 1,
+    "scope": "Document compatibility only; physical inspection and document authenticity remain separate.",
+    "semantic": {
+      "coverage": {
+        "doc": 0,
+        "quote": "Batch DEMO-review-a.",
+        "state": "SUPPORTED"
+      },
+      "manifest": {
+        "doc": 0,
+        "quote": "Batch DEMO-review-a. Issuer: ReusePass Demo Yard. Inspection date: 2026-11-01. Manifest: 10 boards, each 1800 mm long, 100 mm wide, 25 mm thick.",
+        "state": "SUPPORTED"
+      },
+      "provenance": {
+        "doc": 0,
+        "quote": "Provenance: recovered from Demo Warehouse 4; dismantled by Demo Recovery, transferred directly to ReusePass Demo Yard with custody recorded.",
+        "state": "SUPPORTED"
+      },
+      "treatment": {
+        "doc": 0,
+        "quote": "Treatment history: untreated timber, never chemically or preservative treated.",
+        "state": "SUPPORTED"
+      }
+    },
+    "status": "DOCUMENTED_MATCH"
+  },
+  "exported_at": "2026-11-24T02:54:56.403Z"
+}

@@ -1,0 +1,11 @@
+{
+  "hash": "0xd6bc48df0d327be2e7995afb80c38e2de9477ded9256158a56dc25461464f1cf",
+  "from_address": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "to_address": "0xF99Ea214ddDA0677757ac6F3eD42CcB70c710e29",
+  "status": "PENDING",
+  "txExecutionResultName": "NOT_VOTED",
+  "created_at": "2026-11-23T15:03:41.486693+00:00",
+  "execution_mode": "NORMAL",
+  "superseded": true,
+  "votes": null
+}
